@@ -1,8 +1,6 @@
 // Add to db
 var saveToDb = function(className, obj) {
-
 	var feed = new className();
-
 	feed.save(obj, {
 	  success: function(object) {
 	    console.log('saved object', object);
@@ -11,5 +9,4 @@ var saveToDb = function(className, obj) {
 	    console.log(error);
 	  }
 	});
-
 }

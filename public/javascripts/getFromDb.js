@@ -8,5 +8,4 @@ var getFromDb = function(className, callback) {
       })
       return objects;
     }).then(callback);
-	
 }
